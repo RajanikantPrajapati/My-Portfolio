@@ -18,7 +18,7 @@
     --text:#ffffff;
     --border:rgba(255,255,255,0.15);
 }
-
+body{
     font-family:'Poppins',sans-serif;
     background:var(--dark);
     color:var(--text);
