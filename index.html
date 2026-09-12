@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajanikant Prajapati | Data Analyst Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= LOADER ================= -->
+
+    <div class="loader">
+        <div class="loader-ring"></div>
+        <h2>Loading Portfolio...</h2>
+    </div>
+
+    <!-- ================= CUSTOM CURSOR ================= -->
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- ================= PARTICLES ================= -->
+
+    <canvas id="particles"></canvas>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                Rajanikant
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>l̥
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h4>Hello, I'm</h4>
+
+            <h1>Rajanikant Prajapati</h1>
+
+            <h3>
+                <span class="typing"></span>
+            </h3>
+
+            <p>
+                MCA Student passionate about Data Analytics,
+                Data Science, Machine Learning, Python Development
+                and Full Stack Web Development.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+
+        </div>
+
+        <div class="hero-image glass-card">
+            <img src="https://via.placeholder.com/350x350"
+                alt="profile">
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about section">
+
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-container glass-card">
+
+            <p>
+                I am an MCA student passionate about
+                Data Analytics, Data Science, Machine Learning,
+                Python Development, SQL and Web Development.
+
+                I enjoy transforming raw data into meaningful
+                insights and building intelligent applications
+                that solve real-world problems.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= COUNTERS ================= -->
+
+    <section class="counter-section">
+
+        <div class="counter-card glass-card">
+            <h2 class="counter" data-target="10">0</h2>
+            <p>Projects</p>
+        </div>
+
+        <div class="counter-card glass-card">
+            <h2 class="counter" data-target="3">0</h2>
+            <p>Certifications</p>
+        </div>
+
+        <div class="counter-card glass-card">
+            <h2 class="counter" data-target="15">0</h2>
+            <p>Skills</p>
+        </div>
+
+        <div class="counter-card glass-card">
+            <h2 class="counter" data-target="20">0</h2>
+            <p>Technologies</p>
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills section">
+
+        <div class="section-title">
+            <h2>Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card glass-card">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <span data-width="90%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-card">
+                <h3>SQL</h3>
+                <div class="progress-bar">
+                    <span data-width="85%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-card">
+                <h3>Pandas</h3>
+                <div class="progress-bar">
+                    <span data-width="88%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-card">
+                <h3>Machine Learning</h3>
+                <div class="progress-bar">
+                    <span data-width="80%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-card">
+                <h3>R Programming</h3>
+                <div class="progress-bar">
+                    <span data-width="75%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card glass-card">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <span data-width="85%"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects section">
+
+        <div class="section-title">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="project-grid">
+
+            <div class="project-card glass-card">
+
+                <img src="https://via.placeholder.com/400x250"
+                    alt="project">
+
+                <h3>Intelligent Data Analysis System</h3>
+
+                <p>
+                    Automated data cleaning, EDA,
+                    visualization and business insights.
+                </p>
+
+                <div class="project-tech">
+                    R Shiny • Data Analytics
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn">GitHub</a>
+                    <a href="#" class="btn">Live Demo</a>
+                </div>
+
+            </div>
+
+            <div class="project-card glass-card">
+
+                <img src="https://via.placeholder.com/400x250"
+                    alt="project">
+
+                <h3>Universal Data Analytics Framework</h3>
+
+                <p>
+                    Automated KPI dashboards
+                    and advanced reporting.
+                </p>
+
+                <div class="project-tech">
+                    R • Analytics
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn">GitHub</a>
+                    <a href="#" class="btn">Live Demo</a>
+                </div>
+
+            </div>
+
+            <div class="project-card glass-card">
+
+                <img src="https://via.placeholder.com/400x250"
+                    alt="project">
+
+                <h3>Student Performance Prediction</h3>
+
+                <p>
+                    Machine Learning prediction system
+                    using Scikit-Learn.
+                </p>
+
+                <div class="project-tech">
+                    Python • ML
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn">GitHub</a>
+                    <a href="#" class="btn">Live Demo</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section id="certifications" class="section">
+
+        <div class="section-title">
+            <h2>Certifications</h2>
+        </div>
+
+        <div class="cert-grid">
+
+            <div class="glass-card cert-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Python Certification</h3>
+            </div>
+
+            <div class="glass-card cert-card">
+                <i class="fas fa-cloud"></i>
+                <h3>AWS Certification</h3>
+            </div>
+
+            <div class="glass-card cert-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Full Stack Development</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section">
+
+        <div class="section-title">
+            <h2>Education</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item glass-card">
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p>Current</p>
+            </div>
+
+            <div class="timeline-item glass-card">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>Completed</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section id="achievements" class="section">
+
+        <div class="section-title">
+            <h2>Achievements</h2>
+        </div>
+
+        <div class="achievement-grid">
+
+            <div class="glass-card">
+                Data Analytics Projects
+            </div>
+
+            <div class="glass-card">
+                Machine Learning Implementations
+            </div>
+
+            <div class="glass-card">
+                Full Stack Web Projects
+            </div>
+
+            <div class="glass-card">
+                Continuous Learning
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <div class="section-title">
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-container glass-card">
+
+            <form id="contactForm">
+
+                <input type="text"
+                    placeholder="Your Name"
+                    required>
+
+                <input type="email"
+                    placeholder="Email Address"
+                    required>
+
+                <textarea rows="6"
+                    placeholder="Your Message"></textarea>
+
+                <button type="submit"
+                    class="btn primary-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Rajanikant Prajapati |
+            Data Analyst Portfolio
+        </p>
+
+    </footer>
+
+    <!-- ================= BACK TO TOP ================= -->
+
+    <button id="topBtn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
